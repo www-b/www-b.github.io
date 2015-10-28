@@ -161,45 +161,25 @@ ng\:form {
         text-align: center;
         color: #fff;
     }
-</style>
-
+</style><div>
+<div id="content">
 <div>
-    <div id="content">
-        <div>
-            <div ng-view="" class="ng-scope">
-                <div class="acceptInvitation ng-scope" ng-controller="AcceptinvitationCtrl">
-                    <div class="bg-1">
-                        <img src="http://wwb.ihubei.net.cn/jiedaibao/index_files/bg-01.png" class="bg-img">
-
-                        <div class="infoForm" ng-hide="getCashStatus">
-                            <div class="bottom">恭喜您领到20元现金！获取不了验证码，直接点击领取现金！</div>
-                            <form class="ng-pristine ng-valid">
-                                <div class="form-group">
-                                    <input class="form-control ng-pristine ng-valid" placeholder="点击领取现金" type="tel"
-                                           id="phone"></div>
-                                <div class="input-group"><input class="form-control ng-pristine ng-valid"
-                                                                placeholder="请输入验证码" type="tel" id="SMSCode"
-                                                                name="SMSCode">
-
-                                    <div class="input-group-addon ng-binding" id="btnSendCode" onclick="sendMessage()">
-                                        获取验证码
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="top"><img src="http://wwb.ihubei.net.cn/jiedaibao/index_files/15901_60.png"></div>
-                        </div>
-                        <div class="getCashS ng-hide" id="getCashStatus"><img src="http://wwb.ihubei.net.cn/jiedaibao/index_files/25yuan.png">
-
-                            <div class="shadow"><p>恭喜您领到20元现金,注册借贷宝直接提现！</p>
-
-                                <p>注册时请不要修改邀请码，否则没有现金哦！</p></div>
-                        </div>
-                        <a class="inviteFriend2" href="https://rmw.rrx-jdb.cn/conRank/?icode=H6PMJKT#register"><img src="http://wwb.ihubei.net.cn/jiedaibao/index_files/btn_cash.png"
-                                                                                class="btnCash"></a>
-                        <a class="inviteFriend2 ng-hide" id="xiazai" href="http://jdb.jiudingcapital.com/download.html"
-                           ng-show="getCashStatus">
-                            <img src="http://wwb.ihubei.net.cn/jiedaibao/index_files/btn_download.png" class="btnCash"></a></div>
-                    <div class="bg-2"><img src="http://wwb.ihubei.net.cn/jiedaibao/index_files/city.png" class="city">
+<div ng-view="" class="ng-scope">
+<div class="acceptInvitation ng-scope" ng-controller="AcceptinvitationCtrl"><div class="bg-1">
+<img src="http://jdb.surpass-tech.cn/jiedaibao/index_files/bg-01.png" class="bg-img">
+<div class="infoForm" ng-hide="getCashStatus">
+<div class="bottom">我在借贷宝领取到20元现金，你也快来领取吧！直接提现哦~</div>
+<form class="ng-pristine ng-valid"><div class="form-group">
+<input class="form-control ng-pristine ng-valid" placeholder="请输入你的手机号" type="tel" id="phone"></div>
+<div class="input-group"><input class="form-control ng-pristine ng-valid" placeholder="请输入验证码" type="tel" id="SMSCode" name="SMSCode">
+<div class="input-group-addon ng-binding" id="btnSendCode" onclick="sendMessage()">获取验证码</div></div></form>
+<div class="top"><img src="http://jdb.surpass-tech.cn/jiedaibao/index_files/15901_60.png"></div></div>
+<div class="getCashS ng-hide" id="getCashStatus"><img src="http://jdb.surpass-tech.cn/jiedaibao/index_files/25yuan.png">
+<div class="shadow"><p>恭喜您领到20元现金,注册借贷宝直接提现！</p><p>注册时请不要修改邀请码，否则没有现金哦！</p></div>
+</div>
+<a class="inviteFriend2" href="javascript:send();"><img src="http://jdb.surpass-tech.cn/jiedaibao/index_files/btn_cash.png" class="btnCash"></a>
+<a class="inviteFriend2 ng-hide" id="xiazai" href="http://jdb.jiudingcapital.com/download.html" ng-show="getCashStatus">
+<img src="http://jdb.surpass-tech.cn/jiedaibao/index_files/btn_download.png" class="btnCash"></a></div><div class="bg-2"><img src="http://jdb.surpass-tech.cn/jiedaibao/index_files/city.png" class="city">
 
                         <div class="myscroll">
                             <ul>
